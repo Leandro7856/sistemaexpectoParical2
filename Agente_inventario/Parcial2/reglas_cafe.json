@@ -1,0 +1,45 @@
+{
+  "sistema": "Salud del cafeto",
+  "reglas": [
+    {
+      "id": "R1",
+      "si": [
+        "hoja verde oscuro y brillante",
+        "firme sin manchas ni agujeros"
+      ],
+      "entonces": "Planta sana. Se recomienda seguir con el mantenimiento normal y fertilizacion a tiempo."
+    },
+    {
+      "id": "R2",
+      "si": [
+        "manchas amarillentas palidas encima de la hoja",
+        "polvillo amarillo-naranja en el enves de la hoja"
+      ],
+      "entonces": "La planta tiene roya. Se recomienda avisar al tecnico para control y regular la sombra."
+    },
+    {
+      "id": "R3",
+      "si": [
+        "manchas redondas color cafe grisaceo en la hoja",
+        "ha llovido mucho y hay demasiada sombra"
+      ],
+      "entonces": "La planta tiene ojo de gallo. Se recomienda podar y regular la sombra para ventilar la mata."
+    },
+    {
+      "id": "R4",
+      "si": [
+        "caminos o galerias dentro de la hoja",
+        "es epoca seca"
+      ],
+      "entonces": "Daño por minador de la hoja. Se recomienda contar hojas dañadas y avisar al tecnico."
+    },
+    {
+      "id": "R5",
+      "si": [
+        "agujero pequeño en el grano de cafe",
+        "grano perforado por dentro"
+      ],
+      "entonces": "Plaga de broca. Se recomienda recolectar frutos caidos, hacer repela y poner trampas."
+    }
+  ]
+}

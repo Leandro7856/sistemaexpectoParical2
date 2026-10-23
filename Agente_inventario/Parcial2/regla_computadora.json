@@ -1,0 +1,48 @@
+{
+  "sistema": "Reparacion de computadoras",
+  "reglas": [
+    {
+      "id": "R1",
+      "si": [
+        "no enciende",
+        "no tiene luces ni hace ruido",
+        "el cable y la regleta estan bien conectados"
+      ],
+      "entonces": "Falla en la fuente de poder. Se recomienda cambiarla y comprar un regulador."
+    },
+    {
+      "id": "R2",
+      "si": [
+        "tiene pantalla negra",
+        "los ventiladores si giran",
+        "la maquina da pitidos al encender"
+      ],
+      "entonces": "Problema con la memoria RAM. Se recomienda sacarla, limpiar los contactos, soplarla y volverla a instalar."
+    },
+    {
+      "id": "R3",
+      "si": [
+        "se apaga sola",
+        "el equipo esta hirviendo",
+        "el ventilador suena muy fuerte"
+      ],
+      "entonces": "Sobrecalentamiento por polvo. Se recomienda abrirla, limpiarla y cambiar la pasta termica del procesador."
+    },
+    {
+      "id": "R4",
+      "si": [
+        "esta muy lenta",
+        "aparecen ventanas de publicidad solas"
+      ],
+      "entonces": "Infeccion por virus o programas basura. Se recomienda pasar un antivirus y limpiar el navegador."
+    },
+    {
+      "id": "R5",
+      "si": [
+        "el teclado o el touchpad estan levantados",
+        "la tapa de la laptop no cierra bien"
+      ],
+      "entonces": "La bateria esta hinchada y es peligroso. Se recomienda apagarla, no cargarla mas y cambiar la bateria."
+    }
+  ]
+}
